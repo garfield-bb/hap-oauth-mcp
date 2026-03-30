@@ -1,0 +1,4 @@
+# 仅依赖：不执行 pip install -e . 时，可先 pip install -r requirements.txt，
+# 再在仓库根目录使用 python3 -m mingdao_mcp_login.md_login / generate_mcp_config。
+pycryptodome>=3.20.0
+requests>=2.31.0
