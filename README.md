@@ -2,7 +2,7 @@
 
 帮你获取和更新 HAP 个人授权 MCP 配置，无需手动操作 OAuth 流程。
 
-> 本 Skill 在 HAP AI Connect 功能正式推出前（让用户能更便捷地将 HAP 的 Skill、MCP、CLI 与各 AI 工具相连接），供用户提前体验个人 MCP 价值。
+> 在 HAP AI Connect 功能正式推出前（让用户能更便捷地将 HAP 的 Skill、MCP、CLI 与各 AI 工具相��接），您可以通过本 Skill 来获取/更新个人 MCP，提前体验个人 MCP 价值。
 
 ---
 
