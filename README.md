@@ -9,15 +9,15 @@
 ### Claude Code
 
 ```bash
-claude skill add --name mingdao-mcp-login https://github.com/<你的用户名>/md-passid-login.git
+claude skill add --name mingdao-mcp-login https://github.com/garfield-bb/hap-oauth-mcp.git
 ```
 
-将 URL 换成你 fork 或发布后的仓库地址。安装后提到「配置 HAP MCP」「生成个人 MCP」等会触发根目录 **`SKILL.md`**。
+安装后提到「配置 HAP MCP」「生成个人 MCP」等会触发根目录 **`SKILL.md`**。
 
 ### Cursor / Codex / 其他支持 `SKILL.md` 的工具
 
 ```bash
-git clone https://github.com/<你的用户名>/md-passid-login.git
+git clone https://github.com/garfield-bb/hap-oauth-mcp.git
 ```
 
 把本仓库路径加入对应工具的 skill 目录，或直接在克隆目录里按 **`SKILL.md`** 操作。
@@ -25,7 +25,7 @@ git clone https://github.com/<你的用户名>/md-passid-login.git
 ### 仅安装 Python 包（pip）
 
 ```bash
-pip install git+https://github.com/<你的用户名>/md-passid-login.git
+pip install git+https://github.com/garfield-bb/hap-oauth-mcp.git
 ```
 
 安装后可使用命令 `md-mingdao-login`、`md-generate-mcp-config`。
@@ -105,12 +105,12 @@ python3 -m mingdao_mcp_login.generate_mcp_config --account "..." --password "...
 若远程已有历史提交、希望**整库替换**为当前结构，在本地初始化并强制推送（**会改写远程历史**，协作者需重新克隆）：
 
 ```bash
-cd /path/to/md-passid-login
+cd /path/to/hap-oauth-mcp
 git init
 git add .
 git commit -m "chore: publish mingdao-mcp-login skill layout"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/md-passid-login.git
+git remote add origin https://github.com/garfield-bb/hap-oauth-mcp.git
 git push -u origin main --force
 ```
 
